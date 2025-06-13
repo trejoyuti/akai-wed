@@ -3,11 +3,11 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #000000; /* Fondo oscuro */
-    color: #dbd6d6; /* Texto claro */
+    background-color: #f4f4f4;
+    color: #333;
 }
 .container {
-    background-color: #020202; /* Contenedor casi negro */
+    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -18,14 +18,14 @@ body {
 h1 {
     color: #d9534f; /* Un rojo distintivo */
     text-align: center;
-    text-shadow: 0 0 8px rgba(255, 166, 0, 0.425); /* Naranja brillante */
+    text-shadow: 0 0 8px rgba(255, 165, 0, 0.8); /* Naranja brillante */
 }
 h2 {
-    color: #f3faf3; /* Un verde para secciones, ahora más claro */
+    color: #5cb85c; /* Un verde para secciones */
     border-bottom: 2px solid #eee;
     padding-bottom: 5px;
     margin-top: 20px;
-    text-shadow: 0 0 5px rgba(255, 253, 253, 0.6); /* Verde brillante, ahora blanco */
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.6); /* Verde brillante */
 }
 p {
     line-height: 1.6;
@@ -55,9 +55,8 @@ li {
     font-size: 1.1em;
 }
 .ability-icon {
-    /* Aquí se definen los tamaños de los íconos de habilidad */
-    width: 50px; /* Puedes cambiar este valor, por ejemplo, a 30px o 40px para hacerlos más pequeños */
-    height: 50px; /* Asegúrate de que height sea igual a width para mantener la proporción */
+    width: 50px; /* Tamaño de los íconos de habilidad */
+    height: 50px;
     margin-right: 10px; /* Espacio entre el ícono y el texto */
     border-radius: 5px; /* Bordes ligeramente redondeados para los íconos */
     flex-shrink: 0; /* Evita que el ícono se encoja */
@@ -66,8 +65,8 @@ li {
     flex-grow: 1; /* Permite que el texto ocupe el espacio restante */
 }
 .ability-text strong {
-    color: #2cc219; /* Color de texto verde para los nombres de habilidad */
-    text-shadow: 0 0 4px rgba(255, 255, 255, 0.507); /* Blanco suave para el brillo */
+    color: #333;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.7); /* Blanco suave para el brillo */
 }
 
 /* Estilos para la imagen "escondida" (marca de agua) */
